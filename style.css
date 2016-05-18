@@ -1,0 +1,58 @@
+/*
+ Theme Name:     CAHNRSWP Framework Theme
+ Theme URI:      http://cahnrs.wsu.edu/communications
+ Description:    Generic Framework Theme
+ Author:         CAHNRS Communications, Danial Bleile
+ Author URI:     http://cahnrs.wsu.edu/communications
+ Template:       WSUWP-spine-parent-theme
+ Version:        0.0.1
+*/
+
+.row-title { margin: 0 2rem; padding-top: 2rem;}
+
+/* Global Header 
+-------------------------------------------------------- */
+#global-header:after,
+#global-header:before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 200%;
+	height: 100%;
+	top: 0;
+	left: 100%;
+}
+
+#global-header:before {
+	right: 100%;
+	left: auto;
+}
+
+
+#global-header .content-wrap {
+	margin-left: 200px;
+	padding-left: 2rem;
+	box-sizing: border-box;
+}
+
+#global-header .primary-logo.text {
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+}
+
+#global-header .site-actions {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+}
+
+/* Pagebuilder
+-------------------------------------------------------- */
+.row {
+	padding-bottom: 2rem;
+}
+

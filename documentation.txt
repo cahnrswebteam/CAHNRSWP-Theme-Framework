@@ -1,0 +1,39 @@
+
+
+
+Filters:
+
+
+front-page.php
+-------------------------------------
+filter: cahnrs_framework_front_page_replace_html
+filter: cahnrs_framework_front_page_after_html 
+action: cahnrs_framework_front_page_before_html
+filter: cahnrs_framework_front_page_after_main_html
+filter: cahnrs_framework_front_page_after_html
+action: cahnrs_framework_front_page_after_headers_html
+action: cahnrs_framework_front_page_after_featured_images_html
+action: cahnrs_framework_front_page_after_article_html | $post
+action: cahnrs_framework_front_page_after_loop_html
+action: cahnrs_framework_front_page_after_footers_html
+action: cahnrs_framework_front_page_after_content_html
+action: cahnrs_framework_front_page_after_footer_html
+
+parts/Headers.php
+--------------------------------------
+filter: cahnrs_framework_header_replace_html
+filter: cahnrs_framework_header_after_html
+filter: cahnrs_framework_header_logo_inner_html
+filter: cahnrs_framework_header_logo_html
+filter: cahnrs_framework_header_action_nav_html
+action: cahnrs_framework_header_after_html
+action: cahnrs_framework_header_before_content
+action: cahnrs_framework_header_after_content
+action: cahnrs_framework_header_content_before
+action: cahnrs_framework_header_content_after
+
+parts/featured-image 
+--------------------------------------
+filter: cahnrs_framework_featured_image_replace_html
+filter: cahnrs_framework_featured_image_after_html
+action: cahnrs_framework_featured_image_before_html
