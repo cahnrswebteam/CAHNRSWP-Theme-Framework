@@ -30,7 +30,7 @@ if ( $html ){
 			
 			$action_nav_html = '<nav class="site-actions">';
 			
-				$action_nav_html .= '<a href="#">Request Info</a> | <a href="#">Apply</a> | <a href="#">Give</a>';
+				$action_nav_html .= '<a href="http://cahnrs.wsu.edu/academics/prospective/">Request Info</a> | <a href="http://admission.wsu.edu/applications/index.html">Apply</a> | <a href="https://secure.wsu.edu/give/default.aspx?fund=7593">Give</a>';
 			
 			$action_nav_html .= '</nav>';
 			
